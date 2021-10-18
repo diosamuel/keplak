@@ -1,0 +1,11 @@
+
+#title{font-family: 'Bebas Neue', cursive;}
+#subtitle{font-family: 'Roboto', sans-serif;}
+#hand{
+  position: absolute;
+  display:none;
+  height: 70%
+}
+#boost,#subtitle{
+  display: none
+}
