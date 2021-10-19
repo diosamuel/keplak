@@ -4,6 +4,7 @@ let booster = document.querySelector('#boost')
 let title = document.querySelector('#title > span')
 let subtitle = document.querySelector('#subtitle')
 let status = document.querySelector('#status > bold')
+let audio = new Audio('./assets/keplak.mp3');
 let i=0
 
 let motivate = [
@@ -13,9 +14,9 @@ let motivate = [
 	'apakah utang beliau belum dibayar?'
 ]
 let stats = [
-	{title:'sehat sejahtera',max:0},
-	{title:'dendam',max:100},
-	{title:'bonyok',max:250},
+	{title:'masih sehat',max:0},
+	{title:'dendam',max:50},
+	{title:'bonyok',max:100},
 	{title:'kritis',max:350},
 	{title:'ugd',max:500},
 	{title:'covid',max:600},
@@ -45,10 +46,10 @@ function boost(){
 
 	let boosted = setInterval(x => {
 		play()
-		hand.style.display = "none"
-		setTimeout(x=>hand.style.display = "block",0)
+		hand.style.display = "block"
+		setTimeout(x=>hand.style.display = "none",100)
 		title.innerHTML = ++i
-	},100)
+	},200)
 
 	let range = 0
 	let timer = setInterval(x => {
@@ -75,11 +76,12 @@ function readImage() {
   if (file) {
     reader.readAsDataURL(file);
   } else {
-    image.src = "https://pbs.twimg.com/media/E55nN63VIAIbwnB.jpg";
+  	if(!image.src){
+    	image.src = "https://pbs.twimg.com/media/E55nN63VIAIbwnB.jpg";
+  	}
   }
 }
 
 function play() {
-  let audio = document.getElementById("audio");
   audio.play();
 }
