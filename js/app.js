@@ -77,7 +77,7 @@ function readImage() {
     reader.readAsDataURL(file);
   } else {
   	if(!image.src){
-    	image.src = "https://pbs.twimg.com/media/E55nN63VIAIbwnB.jpg";
+    	image.src = "https://c.tenor.com/kHcmsxlKHEAAAAAC/rock-one-eyebrow-raised-rock-staring.gif";
   	}
   }
 }
