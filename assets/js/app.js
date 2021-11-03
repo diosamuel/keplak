@@ -8,10 +8,10 @@ let audio = new Audio('./assets/keplak.mp3');
 let i=0
 
 let motivate = [
-	'Tips : sewa lapangan untuk bertengkar',
 	'Wow tampaknya kamu kesel sekali sama dia',
 	'Saya ramal kamu punya dendam 7 turunan',
-	'apakah utang beliau belum dibayar?'
+	'apakah utang beliau belum dibayar?',
+	'tonjokin bang'
 ]
 let stats = [
 	{title:'masih sehat',max:0},
@@ -43,7 +43,7 @@ image.addEventListener('click', event => {
 function boost(){
 	subtitle.style.display = "block"
 	subtitle.innerHTML = motivate[Math.floor(Math.random()*motivate.length)].toUpperCase()
-
+	booster.style.display = "none"
 	let boosted = setInterval(x => {
 		play()
 		hand.style.display = "block"
