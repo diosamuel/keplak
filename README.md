@@ -1,4 +1,5 @@
-# Keplak - slap your friend
-Keplak is tampol online game
+# Keplak - Slap Your Friend
+Keplak is tampol (slap) online game
 
 [Keplak](https://keplak.netlify.app)
+
