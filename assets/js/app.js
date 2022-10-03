@@ -77,7 +77,7 @@ function readImage() {
     reader.readAsDataURL(file);
   } else {
   	if(!image.src){
-    	image.src = "https://scontent.fcgk32-1.fna.fbcdn.net/v/t39.30808-6/cp0/e15/q65/p296x100/263682247_623523175496052_1357804224065394321_n.jpg?_nc_cat=107&ccb=1-5&_nc_sid=1480c5&_nc_ohc=vJJHFDmNRKkAX_uFbIt&_nc_ht=scontent.fcgk32-1.fna&oh=00_AT84r5dH875Z7vvAee4DUdfGOA-XpYAIdEpugRZR5zzfwA&oe=61D17A34";
+    	image.src = "https://asset-a.grid.id//crop/0x0:0x0/700x0/photo/2019/12/03/1846798683.jpg";
   	}
   }
 }
