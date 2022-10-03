@@ -77,7 +77,7 @@ function readImage() {
     reader.readAsDataURL(file);
   } else {
   	if(!image.src){
-    	image.src = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fbobo.grid.id%2Fread%2F081940948%2Fsering-dijadikan-meme-woman-yelling-at-a-cat-kucing-bernama-smudge-ini-punya-jutaan-followers%3Fpage%3Dall&psig=AOvVaw3-5AO0Br5UznQLEXA5uq50&ust=1664873718364000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCOjz6YXYw_oCFQAAAAAdAAAAABAE";
+    	image.src = "https://asset-a.grid.id//crop/0x0:0x0/700x0/photo/2019/12/03/1846798683.jpg";
   	}
   }
 }
